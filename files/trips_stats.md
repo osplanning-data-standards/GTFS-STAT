@@ -6,7 +6,7 @@
  *  The first line of each file MUST contain case-sensitive field names.
  *  Field names MUST NOT contain tabs, carriage returns or new lines.
  
-File MUST contain ONE the following TWO sets of required attributes:
+File MUST contain ONE of the following TWO sets of required attributes:
 
 **Option One**:
 Required Attributes	| Description										
