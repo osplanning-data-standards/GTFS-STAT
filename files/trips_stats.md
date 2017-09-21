@@ -9,6 +9,7 @@
 File MUST contain ONE of the following TWO sets of required attributes:
 
 **Option One**:
+
 Required Attributes	| Description										
 ----------			| -------------		
 `trip_id`			| ID that uniquely identifies a vehicle trip
@@ -25,6 +26,7 @@ Required Attributes	| Description
 `sunday`			| 0 or 1. A binary value indicating whether route statistics include Sundays.
 
 **Option Two**:
+
 Required Attributes	| Description										
 ----------			| -------------		
 `trip_id`			| ID that uniquely identifies a vehicle trip

@@ -9,13 +9,13 @@
 
 File MUST contain the following required attributes:
 
-**Option One**:
 Required Attributes	| Description										
 ----------			| -------------		
 `path_id`			| ID that uniquely identifies a path.
 `route_id`			| ID that uniquely identifies a route.
 
 File MAY contain the following attributes:
+
 Optional Attributes	| Description										
 ----------			| -------------	
 `path_name`			| Text name of the path
