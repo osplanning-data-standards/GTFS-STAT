@@ -1,7 +1,7 @@
 ## Group Performance Information
 ### A group is a collection of routes that serve a common corridor or origin-destination pair
 
- *  Filename MUST be `groups.txt`
+ *  Filename MUST be `group_stats.txt`
  *  File MUST contain a record for every transit route and in a group
  *  File MUST be a valid CSV file.
  *  The first line of each file MUST contain case-sensitive field names.
