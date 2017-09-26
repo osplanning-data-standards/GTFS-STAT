@@ -3,9 +3,9 @@
 
 A GTFS-based data transit network data standard suitable for dynamic transit modeling.
 
-**version**: 0.1.0
-**updated**: 26 September 2017
-**created**: 26 September 2017
+**version**: 0.1.0  
+**updated**: 26 September 2017  
+**created**: 26 September 2017  
 **authors**:
 
  * Elizabeth Sall (UrbanLabs LLC)  
