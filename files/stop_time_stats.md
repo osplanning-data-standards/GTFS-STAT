@@ -6,18 +6,23 @@
  *  The first line of each file MUST contain case-sensitive field names.
  *  Field names MUST NOT contain tabs, carriage returns or new lines.
  
-File MUST contain ONE of the following TWO sets of required attributes:
-
-**Option One**:
+File MUST contain the following required attributes:
 
 Required Attributes	| Description										
 ----------			| -------------		
 `trip_id`			| ID that uniquely identifies a vehicle trip
 `stop_id`			| ID that uniquely identifies a stop
-`start_date`		| Start date in YYYYMMDD for which route statistics are calculated.
-`end_date`			| End date in YYYYMMDD for which route statistics are calculated.
 `start_time`		| Start time in HH:MM:SS for which route statistics are calculated.
 `end_time`			| End time in HH:MM:SS for which route statistics are calculated.
+
+AND, ONE of the following TWO sets of required attributes:
+
+**Option One**:
+
+Required Attributes	| Description										
+----------			| -------------		
+`start_date`		| Start date in YYYYMMDD for which route statistics are calculated.
+`end_date`			| End date in YYYYMMDD for which route statistics are calculated.
 `monday`			| 0 or 1. A binary value indicating whether route statistics include Mondays.
 `tuesday`			| 0 or 1. A binary value indicating whether route statistics include Tuesdays.
 `wednesday`			| 0 or 1. A binary value indicating whether route statistics include Wednesdays.
@@ -30,11 +35,7 @@ Required Attributes	| Description
 
 Required Attributes	| Description										
 ----------			| -------------		
-`trip_id`			| ID that uniquely identifies a vehicle trip
-`stop_id`			| ID that uniquely identifies a stop
 `service_id`		| ID that uniquely identifies a service span in `calendar.txt`.
-`start_time`		| Start time in HH:MM:SS for which route statistics are calculated.
-`end_time`			| End time in HH:MM:SS for which route statistics are calculated.
 
 File MAY contain the following attributes:
 
