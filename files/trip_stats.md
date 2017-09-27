@@ -11,8 +11,6 @@ File MUST contain the following required attributes:
 Required Attributes	| Description										
 ----------			| -------------		
 `trip_id`			| ID that uniquely identifies a vehicle trip
-`start_time`		| Start time in HH:MM:SS for which route statistics are calculated.
-`end_time`			| End time in HH:MM:SS for which route statistics are calculated.
 
 AND, ONE of the following TWO sets of required attributes:
 
