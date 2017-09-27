@@ -40,11 +40,11 @@ File MAY contain the following attributes:
 
 Optional Attributes	| Description										
 ----------			| -------------		
-`scheduled_runtime`		| Integer, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
-`observed_runtime`		| Integer, number of minutes from actual `arrival_time` at first stop to actual `departure_time` at last stop.
-`scheduled_stopped_time`| Integer, number of minutes scheduled stop time.
-`observed_stopped_time`	| Integer, number of minutes actual stop time.
-`stopped_delay`			| Integer, number of minutes of stop delay.
-`scheduled_moving_time`	| Integer, number of minutes scheduled moving time.
-`observed_moving_time`	| Integer, number of minutes actual moving time.
-`moving_delay`			| Integer, number of minutes of moving delay.
+`scheduled_runtime`		| Float, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
+`observed_runtime`		| Float, number of minutes from actual `arrival_time` at first stop to actual `departure_time` at last stop.
+`scheduled_stopped_time`| Float, number of minutes scheduled stop time.
+`observed_stopped_time`	| Float, number of minutes actual stop time.
+`stopped_delay`			| Float, number of minutes of stop delay.
+`scheduled_moving_time`	| Float, number of minutes scheduled moving time.
+`observed_moving_time`	| Float, number of minutes actual moving time.
+`moving_delay`			| Float, number of minutes of moving delay.
