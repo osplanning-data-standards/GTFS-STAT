@@ -29,7 +29,7 @@ explicit changes please fork the [git repo][repo] and submit a pull request.
 GTFS-STAT is an extension to a GTFS transit network with additional files that contain 
 performance data.  
 
-A GTFS-PLUS transit network MAY include the following files:
+A GTFS-STAT transit network MAY include the following files:
 
 Filename 					| Description										
 ----------					| -------------		
