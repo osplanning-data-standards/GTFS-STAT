@@ -55,3 +55,9 @@ Optional Attributes		| Description
 `pct_departure_late_05_10` | Float. Percent of departures between 5 minutes and 10 minutes late.
 `pct_departure_late_10_15` | Float. Percent of departures between 10 minutes and 15 minutes late.
 `pct_departure_late_15+' 	| Float. Percent of departures more than 15 minutes late.
+`avg_arrival_remaining_seated_cap` | Float. Average amount of remaining seated capacity.
+`avg_arrival_remaining_standing_cap` | Float. Average amount of remaining standing capacity.
+`avg_arrival_remaining_cap` | Float. Average amount of remaining seated+standing capacity. 
+`pct_unboardable_arrivals` | Float. Percent of arrivals with no remaining capacity.
+`pct_boardable_arrivals_00_15` | Float. Percent of arrivals with remaining capacity between 0% (strictly greater than) and 15% 
+`pct_boardable_arrivals_15+` | Float. Percent of arrivals with 15% or more remaining capacity.
