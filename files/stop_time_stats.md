@@ -39,7 +39,9 @@ File MAY contain the following attributes:
 
 Optional Attributes		| Description										
 ----------				| -------------		
-`scheduled_arrival_time`	| Scheduled arrival time at a specific stop for a specific trip on a route in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
-`scheduled_departure_time`	| Scheduled departure time at a specific stop for a specific trip on a route in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
-`observed_arrival_time`	| Actual arrival time at a specific stop for a specific trip on a route in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
-`observed_departure_time`	| Actual departure time at a specific stop for a specific trip on a route in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
+`scheduled_arrival_time`	| Scheduled arrival time in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
+`scheduled_departure_time`	| Scheduled departure time in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
+`avg_observed_arrival_time`	| Average observed arrival time in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
+`stdev_observed_arrival_time` | Standard deviation of observed arrival time in HH:MM:SS format.
+`avg_observed_departure_time`	| Actual departure time at a specific stop for a specific trip on a route in HH:MM:SS format measured from midnight.  For trips that span multiple dates, the time should be entered as a value greater than 2400000
+`stdev_observed_arrival_time` | Standard deviation of observed departure time in HH:MM:SS format.
