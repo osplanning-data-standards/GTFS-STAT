@@ -38,11 +38,21 @@ File MAY contain the following attributes:
 
 Optional Attributes	| Description										
 ----------			| -------------		
+`scheduled_start_time` | String, HH:MM:SS, the `arrival_time` at the first scheduled stop
 `scheduled_runtime`		| Float, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
-`observed_runtime`		| Float, number of minutes from actual `arrival_time` at first stop to actual `departure_time` at last stop.
 `scheduled_stopped_time`| Float, number of minutes scheduled stop time.
-`observed_stopped_time`	| Float, number of minutes actual stop time.
-`stopped_delay`			| Float, number of minutes of stop delay.
 `scheduled_moving_time`	| Float, number of minutes scheduled moving time.
-`observed_moving_time`	| Float, number of minutes actual moving time.
-`moving_delay`			| Float, number of minutes of moving delay.
+`avg_runtime`		| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`stdev_runtime`		| Float, standard deviation of number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`semi_stdev_runtime`		| Float, semi-standard deviation number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`avg_stopped_time`	| Float, average number of minutes observed stop time.
+`stdev_stopped_time`	| Float, standard deviation number of minutes observed stop time.
+`semi_stdev_stopped_time`	| Float, semi-standard deviation average number of minutes observed stop time.
+`avg_moving_time`	| Float, average number of minutes observed moving time.
+`stdev_moving_time`	| Float, standard deviation number of minutes observed moving time.
+`semi_stdev_moving_time`	| Float, standard deviation number of minutes observed moving time.
+`pct_late_start_00_01` | Float. Percent of trips that start between on-time and 1 minute late.
+`pct_late_start_01_05` | Float. Percent of trips that start between 1 minute and 5 mintues late.
+`pct_late_start_05_10` | Float. Percent of trips that start between 5 minutes and 10 minutes late.
+`pct_late_start_10_15` | Float. Percent of trips that start between 10 minutes and 15 minutes late.
+`pct_late_start_15+` 	| Float. Percent of trips that start more than 15 minutes late.
