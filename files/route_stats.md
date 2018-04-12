@@ -42,8 +42,11 @@ Optional Attributes				| Description
 ----------						| -------------		
 `direction_id`					| ID that contains a binary value that indicates the direction of the trip.  This should be included and match `direction_id` values in trips.txt if `direction_id` is included in trips.txt
 `avg_runtime_scheduled`		| Float, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
+`stdev_runtime_scheduled`		| Float, standard deviation of scheduled runtime for all route-segments in the group.
 `avg_stopped_time_scheduled`| Float, number of minutes scheduled stop time.
+`stdev_moving_time_scheduled`	| Float, standard deviation of number of minutes scheduled moving time.
 `avg_moving_time_scheduled`	| Float, number of minutes scheduled moving time.
+`stdev_stopped_time_scheduled`	| Float, standard deviation of number of minutes scheduled time spent at all stops in a trip, for all route-segments in the group, from pull-in time to pull-out time.
 `avg_runtime`		| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
 `stdev_runtime`		| Float, standard deviation of number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
 `semi_stdev_runtime`		| Float, semi-standard deviation number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
