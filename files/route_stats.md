@@ -44,7 +44,7 @@ Optional Attributes				| Description
 `avg_runtime_scheduled`		| Float, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
 `avg_stopped_time_scheduled`| Float, number of minutes scheduled stop time.
 `avg_moving_time_scheduled`	| Float, number of minutes scheduled moving time.
-`avg_runtime_observed`		| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`avg_runtime`		| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
 `stdev_runtime`		| Float, standard deviation of number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
 `semi_stdev_runtime`		| Float, semi-standard deviation number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
 `avg_stopped_time`	| Float, average number of minutes observed stop time.
