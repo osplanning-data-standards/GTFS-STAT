@@ -41,14 +41,21 @@ File MAY contain the following attributes:
 Optional Attributes				| Description										
 ----------						| -------------		
 `direction_id`					| ID that contains a binary value that indicates the direction of the trip.  This should be included and match `direction_id` values in trips.txt if `direction_id` is included in trips.txt
-`avg_scheduled_runtime`			| Float, average number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
-`avg_observed_runtime`			| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
-`stdev_scheduled_runtime`		| Float, standard deviation 
-`stdev_observed_runtime`		| Float, standard deviation of `actual_time`.
-`semi_stdev_observed_runtime`	| Float, semi-standard deviation between scheduled and observed route run time.
-`avg_scheduled_stopped_time`	| Float, average number of minutes scheduled time spent at all stops in a trip, from pull-in time to pull-out time.
-`avg_observed_stopped_time`		| Float, average number of minutes observed time spent at all stops in a trip, from pull-in time to pull-out time.
-`avg_stopped_delay`				| Float, difference between `avg_observed_stopped_time` and `avg_scheduled_stopped_time`.
-`avg_scheduled_moving_time`		| Float, average number of minutes scheduled moving time (difference between `avg_scheduled_runtime` and `avg_scheduled_stopped_time`.
-`avg_observed_moving_time`		| Float, average number of minutes observed moving time (difference between `avg_observed_runtime` and `avg_observed_stopped_time`.
-`avg_moving_delay`				| Float, difference between `avg_observed_moving_time` and `avg_scheduled_moving_time`.
+`scheduled_start_time` | String, HH:MM:SS, the `arrival_time` at the first scheduled stop
+`scheduled_runtime`		| Float, number of minutes from scheduled `arrival_time` at first stop to scheduled `departure_time` at last stop.
+`scheduled_stopped_time`| Float, number of minutes scheduled stop time.
+`scheduled_moving_time`	| Float, number of minutes scheduled moving time.
+`avg_runtime`		| Float, average number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`stdev_runtime`		| Float, standard deviation of number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`semi_stdev_runtime`		| Float, semi-standard deviation number of minutes from observed `arrival_time` at first stop to observed `departure_time` at last stop.
+`avg_stopped_time`	| Float, average number of minutes observed stop time.
+`stdev_stopped_time`	| Float, standard deviation number of minutes observed stop time.
+`semi_stdev_stopped_time`	| Float, semi-standard deviation average number of minutes observed stop time.
+`avg_moving_time`	| Float, average number of minutes observed moving time.
+`stdev_moving_time`	| Float, standard deviation number of minutes observed moving time.
+`semi_stdev_moving_time`	| Float, standard deviation number of minutes observed moving time.
+`pct_late_start_00_01` | Float. Percent of trips that start between on-time and 1 minute late.
+`pct_late_start_01_05` | Float. Percent of trips that start between 1 minute and 5 mintues late.
+`pct_late_start_05_10` | Float. Percent of trips that start between 5 minutes and 10 minutes late.
+`pct_late_start_10_15` | Float. Percent of trips that start between 10 minutes and 15 minutes late.
+`pct_late_start_15+` 	| Float. Percent of trips that start more than 15 minutes late.
